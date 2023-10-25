@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HEAT MAP</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="headContainer">
+        <h1 id="title">Monthly Global Land-Surface Temperature</h1>
+        <h3 id="description">1753 - 2015: base temperature 8.66℃</h3>
+      </div>
+      <div id="container">
+        <div id="chartHolder"></div>
+        <div id="chartHelper"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script type="module">
+      GetChart();
+    </script>
+  </body>
+</html>
